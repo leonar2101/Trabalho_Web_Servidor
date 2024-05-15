@@ -1,0 +1,174 @@
+html,body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.alterar-foto {
+    margin-top: 10px;
+
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    height: 35px;
+}
+
+header {
+    background-color: #007bff;
+    text-align: left;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    /* Remover marcadores de lista */
+    padding: 0;
+    /* Remover padding padrão */
+}
+
+header nav ul li {
+    display: inline-block;
+    /* Exibir os itens horizontalmente */
+}
+
+header nav ul li a {
+    display: block;
+    /* Transformar em bloco para permitir espaçamento */
+    padding: 10px 20px;
+    /* Adicionar espaçamento interno */
+    text-decoration: none;
+    /* Remover sublinhado padrão */
+    color: #fff;
+    /* Cor do texto */
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3;
+    /* Cor de fundo ao passar o mouse */
+}
+
+.trocar-foto-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.alterar-foto {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.cancelar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.selecionar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.edit {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+
+}
+
+.fa-pencil-alt {
+    /* Ajuste o espaçamento conforme necessário */
+    margin-right: 5px;
+    /* Espaçamento à direita do ícone */
+}
+
+.edit:hover .fa-pencil-alt {
+    color: #0056b3;
+    /* Mudar a cor do ícone ao passar o mouse */
+}
+
+.save {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.user {
+    font-size: 24px;
+    margin-left: 0px;
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+}
+
+.descricao .edit {
+    margin-left: 10px;
+}
+
+.xp {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
