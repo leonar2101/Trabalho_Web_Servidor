@@ -8,7 +8,7 @@ Bryan: Desenvolvimento da parte do cadastro , login e pagina de vagas disponíve
 INSTALAÇÃO
 Utilizado php, html, css e mysql, utilizado xamp para acesso ao servidor, e a base de dados, os dois devem estar iniciados...
  Não há rotas programadas, caso ocorra algum erro verificar o caminho dos arquivos nos include e require no código..
- Script sql esta na pasta /publico , basta criar o banco bd_portalvagas no phpmyadmin e executar o script 
+ Script sql esta na pasta /publico , basta criar o banco bd_portalvagas no phpmyadmin e executar o script e executar o comando composer install para as instalar as dependencias do composer
 
 
 
